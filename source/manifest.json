@@ -1,0 +1,16 @@
+{
+	"manifest_version": 2,
+	"name": "Merkel-to-Mutti",
+	"version": "0.1.4",
+	"description": "Merkel-to-Mutti ersetzt den Namen Merkel (oder Angela Merkel) durch Mutti. Made with ♥ by @pushthings4ward",
+	"homepage_url": "https://github.com/pushthings4ward/merkel-to-mutti",
+	"content_scripts": 
+	[
+		{
+			"matches": ["*://*/*"],
+			"js": ["content_script.js"],
+			"run_at": "document_end"
+		}
+	]
+}
+
